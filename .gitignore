@@ -7,6 +7,7 @@
 data/
 *.secret
 secrets/
+local.settings.json
 
 # ----------------------------
 # OS-specific files
