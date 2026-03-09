@@ -14,3 +14,5 @@ https://learn.microsoft.com/en-us/azure/azure-functions/scenario-scheduled-tasks
 3. Set Storage account credentials as env variables (Function App > Settings > Env variables)
     - Add AzureWebJobsStorage__accountName + name of storage account
     - Add AzureWebJobsStorage__credential + managedidentity
+4. Pull .github/workflow into code repo and push to trigger GitHub actions for deployment
+5. Test function in portal/programmatic
